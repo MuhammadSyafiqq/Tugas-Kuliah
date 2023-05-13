@@ -1,0 +1,77 @@
+padding 0;
+margin 0;
+    .warp {
+      background-image: url(uadgaris.jpg);
+      width: 100%;
+      margin: 10px auto;
+    }
+    .warp .header {
+      background-image: url(uadgaris.jpg);
+      text-align: center;
+      /*height: 50px;*/
+      padding: 2px 10px;
+    }
+    .warp .menu {
+      background: blue;
+    }
+    .warp .menu ul {
+      padding: 0;
+      margin: 0;
+      background: orange;
+      overflow: hidden;
+    }
+    .warp .menu ul li {
+      float: left;
+      list-style-type: none;
+      padding: 12px;
+    }
+
+    .warp .menu ul li .biodata {
+      display: flex;
+      float: right;
+      justify-content: right;
+      align-items: right;
+
+
+    }
+
+    }
+    .clear {
+      clear: both;
+    }
+    .badan {
+      height: 450px;
+    }
+    .warp .badan .sidebar {
+      background: teal;
+      float: left;
+      width: 25%;
+      height: 100%;
+      align-items: center;
+    }
+    .warp .badan .sidebar ul li {
+      float: left;
+      height: 60px;
+      align-items: center;
+      list-style-type: circle;
+      justify-content: center;
+    }
+
+    .warp .badan .content {
+      background: white;
+      float: left;
+      height: 100%;
+      width: 75%;
+    }
+    .warp .badan .content .image-content{
+      align-items: center;
+      text-align: center;
+      }
+    .warp .footer {
+      background-image: url(uadgaris.jpg) ;
+      width: 100%;
+      padding: 2px 10px;
+      list-style-type: none;
+      text-align: center;
+
+    }
