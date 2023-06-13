@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pweb2023-Tugas03h-SKRIP-I-2200018394-MuhammadSyafiqZhalifunnas</title>
+  <title>Pweb2023-Tugas08-SKRIP-I-2200018394-MuhammadSyafiqZhalifunnas</title>
 </head>
     <style>
         body {
@@ -23,9 +23,15 @@
             border: none;
             cursor: pointer;
         }
+        body input {
+            background-color: orange;
+            display: flex;
+            justify-content: flex;
+        }
+        
     </style>
 <body>
-  <script src="quiz.js"></script>
+  
   <p>
     <h1 align="center">Kartu Tanda Mahasiswa</h1>
   </p>
@@ -54,20 +60,23 @@
   </tr>
   <tr>
     <td>Universitas</td>
-    <td>Universitas Ahmad Dalan</td>
+    <td>Infomatika</td>
   </tr>
 
   </table>
   <table>
-    <center>
-
-  <h1>Deteksi Bilangan Prima</h1>
+    
+<center>
+    <h1>Deteksi Bilangan Prima</h1>
+   
     <input type="number" id="numberInput" placeholder="Masukkan bilangan...">
-    <button onclick="checkPrime()">Cek Prima</button>
+    <button onclick="cekprima()">Cek Prima</button>
     <p id="result"></p>
+    <p id="result"></p>
+</center>
 
-    <script>
-        function checkPrime() {
+<script>
+        function cekprima() {
             var number = document.getElementById("numberInput").value;
             var isPrime = true;
 
