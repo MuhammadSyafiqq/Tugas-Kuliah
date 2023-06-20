@@ -17,6 +17,10 @@
 	echo "Gaji Sebelum pajak = Rp. $gaji <br>";
 	echo "Gaji yang dibawa pulang = Rp. $thp <br>";
 
+?>
+</div>
+	<div class="card2" >
+<?php
 	$a = 5;
 	$b = 4;
 
@@ -26,9 +30,9 @@
 	echo "<br>$a < $b : ". ($a < $b);
 	echo "<br>($a == $b) &&($a > $b) : ".(($a != $b) &&  ($a > $b));
 	echo "<br>($a == $b) ||($a > $b) : ".(($a != $b) ||  ($a > $b));
-
 ?>
 </div>
+
 
 </center>
 
