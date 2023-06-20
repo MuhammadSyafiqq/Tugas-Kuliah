@@ -1,0 +1,118 @@
+body {
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: initial;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    background: blue;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 250px;
+    width: 500px;
+    margin: 0;
+    display: inline-table;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card2 {
+    position: absolute;
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 100px;
+    width: 500px;
+    margin: 0;
+    display: inline-table;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kotak2{
+    height: 100px;
+    width: 500px;
+    background-color: #7373c8;
+    position: absolute;
+    display: inline-table;
+    font-size: 15px;
+    display: flex;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+}
+.kotak{
+    height: 70px;
+    width: 500px;
+    background-color:#7777bf ;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    border-radius: 8px;
+    margin: 0;
+    display: inline-table;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #191970;
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 20px 60px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1 px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: bisque;
+    height: 50px;
+    width: 500 px;
+    background-color:#b45719 ;
+    margin: 4px 2px;
+    padding: 16px 226px;
+    text-align: center;
+    border: none;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+    color: white;
+}
+.tmbl {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    background-color:red ;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+}
+.tmbl:hover {
+    background-color: white;
+    color: white;}
