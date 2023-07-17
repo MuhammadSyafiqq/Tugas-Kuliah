@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- fonts !-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+<!-- fonts end !-->
+
+<!-- CSS !-->
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+  <!-- NavBar Start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">SYAFIQ<span> STORE</span> </a>
+
+  <div class="navbar-nav">
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+   </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search"><i data-feather="search"></i> </a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i> </a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i> </a>
+    </div>
+
+  </nav>
+
+  <!-- Navbar END -->
+
+  <!-- Hero Section Start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>MAKAN ENAK DAN MURAH HANYA<span> SYAFIQ DINNERS</span></h1>
+      <p>.</p>
+      <a href="#menu" class="cta">Beli Sekarang</a>
+    </main>
+  </section>
+
+  <!-- Hero Section END -->
+
+  <!-- Menu Section Start -->
+  <section id="menu" class="menu">
+    <h2><span>MENU</span></h2>
+
+ 
+<form action="php/orderan.php" method="GET" onsubmit="return validateForm()">
+
+  <div class="col">
+      <div class="menu-card">
+        <h3>Lengkapi Data</h3>
+        <div class="input-id">
+          <h4>Name</h4>
+          <input type="text" name="id" id="name" placeholder="Type Your Name">
+        </div>
+        <div class="input-id">
+          <h4>Table</h4>
+        <input type="number" name="server" id="table" placeholder="Type Your Table (1-20)">
+        </div>
+
+
+        </div>
+    </div>
+
+  <div class="row">
+      <div class="menu-card">
+        <h4>Pilih Menu</h4>
+        <div class="isi-card">
+          <input type="checkbox" id="NasiGoreng" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Nasi Goreng">
+          <label for="NasiGoreng" class="checkbox-label"><img src="image/menumakan/nasigoreng.jpg"> <br> 
+            <h3>Nasi Goreng</h3>
+            <p>Rp 14.000</p></label>
+        <div class="input-field hidden">
+      <label class="input-quantity">
+        Jumlah:<input type="number" name="quantity[]" onchange="calculateTotalPrice()" >
+      </label>
+    </div>
+    </div>
+
+    <div class="isi-card">
+      <input type="checkbox" id="MieGoreng" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Mie Goreng">
+          <label for="MieGoreng" class="checkbox-label"><img src="image/menumakan/mie-goreng.jpg"> <br>
+            <h3>Mie Goreng</h3>
+            <p>Rp 12.000</p></label>
+            <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()">
+      </label>
+    </div>
+    </div>
+
+    <div class="isi-card">
+      <input type="checkbox" id="checkbox3" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ayam Goreng">
+      <label for="checkbox3" class="checkbox-label"><img src="image/menumakan/ayamgoreng.jpg"> <br>
+        <h3>Ayam Goreng</h3>
+        <p>Rp 16.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]">
+      </label>
+    </div>
+    </div>
+
+    <div class="isi-card">
+       <input type="checkbox" id="checkbox4" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ayam Bakar">
+      <label for="checkbox4" class="checkbox-label"><img src="image/menumakan/ayambakar.jpg"> <br>
+        <h3>Ayam Bakar</h3>
+        <p>Rp 16.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()">
+      </label>
+    </div>
+      
+    </div>
+
+    <div class="isi-card">
+        <input type="checkbox" id="checkbox5" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Kerang">
+      <label for="checkbox5" class="checkbox-label"><img src="image/menumakan/kerang.jpg"> <br>
+        <h3>Kerang</h3>
+        <p>Rp 24.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()">
+      </label>
+    </div>
+    </div>
+
+
+
+    <div class="isi-card">
+       <input type="checkbox" id="checkbox6" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ayam Geprek">
+      <label for="checkbox6" class="checkbox-label"><img src="image/menumakan/ayam-geprek.jpg"> <br>
+        <h3>Ayam Geprek</h3>
+        <p>Rp 16.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()">
+      </label>
+    </div>
+   
+    </div>
+
+    <div class="isi-card">
+     
+      <input type="checkbox" id="checkbox7" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Rendang">
+      <label for="checkbox7" class="checkbox-label"><img src="image/menumakan/rendang.jpg"> <br>
+        <h3>Rendang</h3>
+        <p>Rp 18.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label></div>
+
+    </div>
+    
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox8" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Dendeng">
+      <label for="checkbox8" class="checkbox-label"><img src="image/menumakan/dendeng.jpg"> <br>
+        <h3>Dendeng</h3>
+        <p>Rp 19.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()">
+      </label>
+    </div>
+      
+    </div>
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox9" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Lobster Saos">
+      <label for="checkbox9" class="checkbox-label"><img src="image/menumakan/lobster.jpg"> <br>
+        <h3>Lobster Saos</h3>
+        <p>Rp 32.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+    
+    </div>
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox10" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Gurita Saos">
+      <label for="checkbox10" class="checkbox-label"><img src="image/menumakan/gurita.jpg"> <br>
+        <h3>Gurita Saos</h3>
+        <p>Rp 34.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+  
+    </div>
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox11" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Kepiting">
+      <label for="checkbox11" class="checkbox-label"><img src="image/menumakan/kepiting.jpg"> <br> 
+        <h3>KEPITING</h3>
+        <p>Rp 32.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+
+     
+    </div>
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox12" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ikan Salmon">
+      <label for="checkbox12" class="checkbox-label"><img src="image/menumakan/ikan-salmon-tiram.jpg"> <br> 
+        <h3>Ikan Salmon</h3>
+        <p>Rp 15.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+     
+    </div>
+
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox13" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ikan Gurame">
+      <label for="checkbox13" class="checkbox-label"><img src="image/menumakan/ikan-gurame.jpg"> <br> 
+        <h3>Ikan Gurame</h3>
+        <p>Rp 15.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+     
+    </div>
+
+
+    <div class="isi-card">
+
+       <input type="checkbox" id="checkbox14" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Ikan Nila">
+      <label for="checkbox14" class="checkbox-label"><img src="image/menumakan/ikan-nila.jpg"> <br>
+        <h3>Ikan Nila</h3>
+        <p>Rp 15.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+     
+    </div>
+
+      <div class="isi-card">
+      
+       <input type="checkbox" id="checkbox15" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Cumi Goreng">
+      <label for="checkbox15" class="checkbox-label"><img src="image/menumakan/cumi-goreng.jpg"> <br>
+        <h3>Cumi Goreng</h3>
+        <p>Rp 26.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+    </div>
+
+    <h4>Minuman</h4>
+
+    <div class="isi-card">
+      
+       <input type="checkbox" id="checkbox16" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Es Teh">
+      <label for="checkbox16" class="checkbox-label"><img src="image/menumakan/es-teh.jpg"> <br>
+        <h3>Es Teh</h3>
+        <p>Rp 5.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()" ></label>
+      </div>
+    </div>
+
+    <div class="isi-card">
+      
+       <input type="checkbox" id="checkbox17" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Air Mineral">
+      <label for="checkbox17" class="checkbox-label"><img src="image/menumakan/mineral.jpg"> <br>
+        <h3>Air Mineral</h3>
+        <p>Rp 3.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+    </div>
+
+    <div class="isi-card">
+      
+       <input type="checkbox" id="checkbox18" class="hidden-checkbox" name="food[]" onclick="showInput()" value="Aneka Jus">
+      <label for="checkbox18" class="checkbox-label"><img src="image/menumakan/jus.jpg"> <br>
+        <h3>Aneka Jus</h3>
+        <p>Rp 10.000</p></label>
+        <div class="input-field hidden">
+      <label>
+        Jumlah:
+        <input type="number" name="quantity[]" onchange="calculateTotalPrice()"></label>
+      </div>
+    </div>
+
+  </div>
+  <input type="submit" name="PESAN" class="btn">
+</div>
+</form>
+</section>
+
+  <!-- Menu Section END -->
+
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak </span>Saya</h2>
+
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.5891799531328!2d110.38054627452507!3d-7.8332295778154615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5701a2ae1c23%3A0x173dbeeddc56d9e!2sUniversitas%20Ahmad%20Dahlan%20-%20Kampus%204!5e0!3m2!1sid!2sid!4v1689088560927!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group" >
+          <i data-feather="user"></i>
+          <input type="text" name="nama" placeholder="Nama" ><br>
+        </div>
+
+       <div class="input-group" >
+          <i data-feather="user"></i>
+          <input type="number" name="nim" placeholder="NIM" ><br>
+        </div>
+
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="email" name="email" placeholder="Email"><br>
+        </div>
+
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="number" name="phone" placeholder="NO HP"><br>
+        </div>
+
+
+        <div class="input-group">
+          <textarea name="komentar" placeholder="Komentar" class="komentar"></textarea><br>
+        </div>
+
+        <div>
+        <button type="submit" class="btn">Kirim</button>
+      </div>
+      </form>
+    </div>
+</section>
+</body>
+  <!-- Contact Section END -->
+
+
+  <!-- Footer Start -->
+
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/syaafik_/?next=%2F"><i data-feather="instagram"></i></a>
+        <a href="https://www.tiktok.com/@cr4venn"><img src="image/logosocial/tiktok.jpeg"></a>
+        <a href="https://wa.wizard.id/4082dd" target="_blank"><i data-feather="phone"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">>Home<</a>
+        <a href="#menu">>Menu<</a>
+        <a href="#contact">>Kontak<</a>
+
+      </div>
+
+      <div class="credit">
+        <p>Copyright & Created By <a href="">Muhammad Syafiq Zhalifunnas. | &copy; 2023.</a>
+      </div>
+
+    </footer>
+  <!-- Foooter END -->
+
+
+<script>
+      feather.replace()
+    </script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script> 
+    <script type="text/javascript" src="js/coba.js"></script>
+    <script type="text/javascript" src="save.js"></script>
+    <!-- JavaScript END -->
+</html>

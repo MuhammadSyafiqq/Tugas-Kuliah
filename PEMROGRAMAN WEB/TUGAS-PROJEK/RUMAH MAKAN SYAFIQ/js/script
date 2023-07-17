@@ -1,0 +1,5 @@
+//toggle class active
+const navbarNav = document.querySelector('.navbar-nav');
+document.querySelector('#hamburger-menu') = () =>{
+	navbarNav.classList.toggle('active');
+};

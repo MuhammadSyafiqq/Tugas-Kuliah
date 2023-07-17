@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    .checked {
+  color: blue;
+}
+
+.unchecked {
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+  <input type="checkbox" id="checkbox1" onclick="checkCheckbox(this, 'checkbox1')">
+<label for="checkbox1" id="label1">Checkbox 1</label>
+<br>
+<input type="checkbox" id="checkbox2" onclick="checkCheckbox(this, 'checkbox2')">
+<label for="checkbox2" id="label2">Checkbox 2</label>
+<br>
+<input type="checkbox" id="checkbox3" onclick="checkCheckbox(this, 'checkbox3')">
+<label for="checkbox3" id="label3">Checkbox 3</label>
+<br>
+<input type="checkbox" id="checkbox4" onclick="checkCheckbox(this, 'checkbox4')">
+<label for="checkbox4" id="label4">Checkbox 4</label>
+<br>
+<input type="checkbox" id="checkbox5" onclick="checkCheckbox(this, 'checkbox5')">
+<label for="checkbox5" id="label5">Checkbox 5</label>
+
+<script type="text/javascript">
+  function checkCheckbox(clickedCheckbox, checkboxId) {
+  var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  var labels = document.querySelectorAll('label');
+  
+  checkboxes.forEach(function (checkbox) {
+    if (checkbox !== clickedCheckbox) {
+      checkbox.checked = false;
+    }
+  });
+  
+  labels.forEach(function (label) {
+    if (label.getAttribute('for') === checkboxId) {
+      label.classList.add("checked");
+    } else {
+      label.classList.remove("checked");
+    }
+  });
+}
+</script>
+</body>
+</html>

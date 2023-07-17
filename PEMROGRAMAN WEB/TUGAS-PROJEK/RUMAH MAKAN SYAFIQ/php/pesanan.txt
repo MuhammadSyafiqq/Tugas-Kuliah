@@ -1,0 +1,498 @@
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 6
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Ayam Goreng - Jumlah: 6
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Ayam Geprek - Jumlah: 6
+Rendang - Jumlah: 2
+Dendeng - Jumlah: 3
+Lobster Saos - Jumlah: 5
+Gurita Saos - Jumlah: 6
+Kepiting - Jumlah: 6
+Ikan Salmon - Jumlah: 2
+Ikan Gurame - Jumlah: 6
+Ikan Nila - Jumlah: 6
+Cumi Goreng - Jumlah: 6
+Es Teh - Jumlah: 5
+Air Mineral - Jumlah: 3
+Aneka Jus - Jumlah: 45
+Total Harga: Rp 2,023,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 6
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Ayam Goreng - Jumlah: 6
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Ayam Geprek - Jumlah: 6
+Rendang - Jumlah: 2
+Dendeng - Jumlah: 3
+Lobster Saos - Jumlah: 5
+Gurita Saos - Jumlah: 6
+Kepiting - Jumlah: 6
+Ikan Salmon - Jumlah: 2
+Ikan Gurame - Jumlah: 6
+Ikan Nila - Jumlah: 6
+Cumi Goreng - Jumlah: 6
+Es Teh - Jumlah: 5
+Air Mineral - Jumlah: 3
+Aneka Jus - Jumlah: 45
+Total Harga: Rp 1,347,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 6
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Ayam Goreng - Jumlah: 6
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Ayam Geprek - Jumlah: 6
+Rendang - Jumlah: 2
+Dendeng - Jumlah: 3
+Lobster Saos - Jumlah: 5
+Gurita Saos - Jumlah: 6
+Kepiting - Jumlah: 6
+Ikan Salmon - Jumlah: 2
+Ikan Gurame - Jumlah: 6
+Ikan Nila - Jumlah: 6
+Cumi Goreng - Jumlah: 6
+Es Teh - Jumlah: 5
+Air Mineral - Jumlah: 3
+Aneka Jus - Jumlah: 45
+Total Harga: Rp 1,347,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Ayam Goreng - Jumlah: 5
+Total Harga: Rp 196,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Ayam Goreng - Jumlah: 5
+Es Teh - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 196,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Es Teh - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Es Teh - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Air Mineral - Jumlah: 
+Total Harga: Rp 28,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Air Mineral - Jumlah: 
+Total Harga: Rp 28,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Air Mineral - Jumlah: 
+Total Harga: Rp 28,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Air Mineral - Jumlah: 
+Total Harga: Rp 28,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Kerang - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Mie Goreng - Jumlah: 
+Dendeng - Jumlah: 1
+Es Teh - Jumlah: 
+Total Harga: Rp 19,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Mie Goreng - Jumlah: 
+Dendeng - Jumlah: 1
+Es Teh - Jumlah: 
+Total Harga: Rp 19,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 1
+Total Harga: Rp 14,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 4
+Pesanan:
+Mie Goreng - Jumlah: 
+Kerang - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 120,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 4
+Pesanan:
+Mie Goreng - Jumlah: 
+Kerang - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 120,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 5
+Pesanan:
+Nasi Goreng - Jumlah: 1
+Mie Goreng - Jumlah: 0
+Total Harga: Rp 14,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 5
+Pesanan:
+Mie Goreng - Jumlah: 
+Kerang - Jumlah: 2
+Dendeng - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 48,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 1
+Pesanan:
+Rendang - Jumlah: 
+Gurita Saos - Jumlah: 
+Kepiting - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: 2200018394
+Nomor Meja: 1
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 4
+Ayam Goreng - Jumlah: 5
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Rendang - Jumlah: 
+Gurita Saos - Jumlah: 5
+Kepiting - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 542,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 1
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 4
+Ayam Goreng - Jumlah: 5
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Rendang - Jumlah: 
+Gurita Saos - Jumlah: 5
+Kepiting - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 542,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 1
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 4
+Ayam Goreng - Jumlah: 5
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Rendang - Jumlah: 
+Gurita Saos - Jumlah: 5
+Kepiting - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 542,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 1
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 4
+Ayam Goreng - Jumlah: 5
+Ayam Bakar - Jumlah: 6
+Kerang - Jumlah: 5
+Rendang - Jumlah: 
+Gurita Saos - Jumlah: 5
+Kepiting - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 542,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 1
+Mie Goreng - Jumlah: 1
+Ayam Goreng - Jumlah: 3
+Ayam Geprek - Jumlah: 
+Es Teh - Jumlah: 
+Total Harga: Rp 74,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 1
+Mie Goreng - Jumlah: 1
+Ayam Goreng - Jumlah: 3
+Ayam Geprek - Jumlah: 
+Es Teh - Jumlah: 
+Total Harga: Rp 74,000
+--------------------------
+Nama: 2
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Air Mineral - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 5
+Mie Goreng - Jumlah: 3
+Ayam Goreng - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 186,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 5
+Mie Goreng - Jumlah: 3
+Ayam Goreng - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 186,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Ikan Gurame - Jumlah: 
+Total Harga: Rp 0
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 116,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 116,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Mie Goreng - Jumlah: 5
+Air Mineral - Jumlah: 
+Total Harga: Rp 116,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 2
+Pesanan:
+Mie Goreng - Jumlah: 2
+Kerang - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 52,000
+--------------------------
+Nama: 2200018394
+Nomor Meja: 2
+Pesanan:
+Kerang - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 52,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Kerang - Jumlah: 
+Dendeng - Jumlah: 
+Es Teh - Jumlah: 4
+Total Harga: Rp 52,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 2
+Kerang - Jumlah: 
+Dendeng - Jumlah: 
+Es Teh - Jumlah: 4
+Total Harga: Rp 52,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Mie Goreng - Jumlah: 2
+Kerang - Jumlah: 
+Dendeng - Jumlah: 
+Total Harga: Rp 52,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Kerang - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 
+Kerang - Jumlah: 3
+Es Teh - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 2
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 
+Kerang - Jumlah: 
+Es Teh - Jumlah: 
+Total Harga: Rp 42,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 5
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Mie Goreng - Jumlah: 
+Dendeng - Jumlah: 
+Es Teh - Jumlah: 
+Total Harga: Rp 78,000
+--------------------------
+Nama: Muhammad Syafiq Zhalifunnas
+Nomor Meja: 5
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Mie Goreng - Jumlah: 
+Dendeng - Jumlah: 
+Es Teh - Jumlah: 
+Total Harga: Rp 78,000
+--------------------------
+Nama: Muhammad Syafiq ZhalASD%ifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 
+Air Mineral - Jumlah: 
+Total Harga: Rp 104,000
+--------------------------
+Nama: Muhammad Syafiq ZhalASD%ifunnas
+Nomor Meja: 2
+Pesanan:
+Nasi Goreng - Jumlah: 4
+Mie Goreng - Jumlah: 4
+Air Mineral - Jumlah: 
+Total Harga: Rp 104,000
+--------------------------
+Nama: Muhammad Syafiq ZhalASD%ifunnas
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Mie Goreng - Jumlah: 4
+Air Mineral - Jumlah: 
+Total Harga: Rp 90,000
+--------------------------
+Nama: Muhammad Syafiq ZhalASD%ifunnas
+Nomor Meja: 4
+Pesanan:
+Nasi Goreng - Jumlah: 3
+Mie Goreng - Jumlah: 4
+Ayam Goreng - Jumlah: 2
+Ayam Bakar - Jumlah: 1
+Kerang - Jumlah: 1
+Ayam Geprek - Jumlah: 1
+Rendang - Jumlah: 3
+Dendeng - Jumlah: 5
+Lobster Saos - Jumlah: 4
+Gurita Saos - Jumlah: 4
+Kepiting - Jumlah: 3
+Ikan Salmon - Jumlah: 4
+Ikan Gurame - Jumlah: 3
+Ikan Nila - Jumlah: 5
+Cumi Goreng - Jumlah: 4
+Es Teh - Jumlah: 5
+Air Mineral - Jumlah: 4
+Aneka Jus - Jumlah: 4
+Total Harga: Rp 952,000
+--------------------------
