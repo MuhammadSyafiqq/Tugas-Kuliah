@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,4 +105,111 @@
 
 </table>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pweb2023-Tugas08-SKRIP-I-2200018394-MuhammadSyafiqZhalifunnas</title>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+        }
+        
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        body input {
+            background-color: orange;
+            display: flex;
+            justify-content: flex;
+        }
+        
+    </style>
+<body>
+  
+  <p>
+    <h1 align="center">Kartu Tanda Mahasiswa</h1>
+  </p>
+  <table border="1" cellspacing="0" cellpadding="5" align="center" widht="800"
+<tr align="center" bgcolor="#1fe5d5">
+  <td width="200">FOTO</td>
+  <td width="200">DATA DIRI</td>
+  <td width="400">KETERANGAN</td>
+</tr>
+<tr>
+  <td rowspan="7"> <img decoding="async" src="fotosma.jpeg" width="200"/></td>
+  <td>NAMA </td>\
+  <td>Muhammad Syafiq Zhalifunnas</td>
+</tr> 
+<tr>
+  <td>NIM</td>
+  <td>2200018394</td>
+  </tr>
+  <tr>
+    <td>FAKULTAS</td>
+    <td>Teknik Industri</td>
+  </tr>
+  <tr>
+    <td>PRODI</td>
+    <td>INFORMATIKA</td>
+  </tr>
+  <tr>
+    <td>Universitas</td>
+    <td>Infomatika</td>
+  </tr>
+
+  </table>
+  <table>
+    
+<center>
+    <h1>Deteksi Bilangan Prima</h1>
+   
+    <input type="number" id="numberInput" placeholder="Masukkan bilangan...">
+    <button onclick="cekprima()">Cek Prima</button>
+    <p id="result"></p>
+    <p id="result"></p>
+</center>
+
+<script>
+        function cekprima() {
+            var number = document.getElementById("numberInput").value;
+            var isPrime = true;
+
+            if (number <= 1) {
+                isPrime = false;
+            } else {
+                for (var i = 2; i <= Math.sqrt(number); i++) {
+                    if (number % i === 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+            }
+
+            if (isPrime) {
+                document.getElementById("result").innerHTML = number + " adalah bilangan prima.";
+            } else {
+                document.getElementById("result").innerHTML = number + " bukan bilangan prima.";
+            }
+        }
+    </script>
+  </center>
+
+
+</table>
+</body>
+>>>>>>> 3c0122604f77c350ff640fce9a0aeac9e94072db
 </html>

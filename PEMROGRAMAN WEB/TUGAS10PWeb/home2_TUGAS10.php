@@ -19,7 +19,7 @@
     <div class="card"><div class="kotak"></br>
         <font color="white">INPUT KALIMAT</div>
     </br></br></br>
-        <form action="page2.php" method="GET">
+        <form action="page2_Tugas10.php" method="GET">
         <input type="float" name="nilai" placeholder="Masukkan nilai...(87,90)">
         </br></br></br>
         <input type="submit" class="btn" value="Proses"></form>
